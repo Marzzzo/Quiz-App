@@ -26,10 +26,21 @@
 
     <div class="container">
         <div class="card quiz-card ">
-            <img src="img/pencil-5726923_640.jpg" class="card-img-top">
+            <img src="img/pencil-5726923_640.jpg" id="header-image" class="card-img-top">
+
+            <div class="progress">
+                <div class="progress-bar" id="progress-bar" role="progressbar" style="width: 0%;">0%</div>
+            </div>
 
             <div class="card-body" id="endScreen" style="display: none;">
-                Quiz beendet!
+                <div class="text-center final-headline">
+                    Quiz beendet!
+                </div>
+
+                <div class="text-center">
+                    Du hast <b id="amount-of-right-questions">XXX</b> Fragen von <b id="amount-of-questions">XXX</b>
+                    richtig beantwortet.
+                </div>
             </div>
 
 

@@ -30,3 +30,20 @@ body {
 .bg-danger {
   color: white !important;
 }
+
+.width-100 {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.win-img {
+  border-radius: 50%;
+}
+
+.final-headline {
+  font-size: 46px;
+  margin-bottom: 24px;
+}
